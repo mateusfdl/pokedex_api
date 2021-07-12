@@ -2,7 +2,6 @@
 
 class PokemonController < ApplicationController
   def show_abilities
-    
     @pokemon_abilities = Pokemon::PokemonAbilities.abilities pokemon_name_params
 
     render json: abilities.sort
