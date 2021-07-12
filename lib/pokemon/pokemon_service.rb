@@ -1,5 +1,4 @@
 module Pokemon
-  
   class PokemonService < API
     include Singleton
 
