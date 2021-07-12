@@ -1,5 +1,4 @@
 module Pokemon
-  
   class PokemonAbilities
     ENDPOINT = PokemonService.instance
 
