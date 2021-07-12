@@ -1,7 +1,6 @@
 # frozen_string_literal: true
 
 module Pokemon
-  
   class API
     include HTTParty
 
