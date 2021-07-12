@@ -1,24 +1,13 @@
-# README
+# Getting started
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+1 - Install docker: [Docker Install Docs](https://docs.docker.com/install/)
 
-Things you may want to cover:
+2 - Clone this project: 
 
-* Ruby version
+3 - Run the application database and server: `docker-compose up`
 
-* System dependencies
+# ENDPOINTS
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+| METHOD | ROUTE |
+| ------ | ------ |
+| GET | /pokemon/pokemon_name | `ex: ditto`  
