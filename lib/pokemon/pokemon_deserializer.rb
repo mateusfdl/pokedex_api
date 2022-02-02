@@ -9,7 +9,7 @@ module Pokemon
     end
 
     def deserialize_abilities
-      JSON.parse(pokemon.body)['abilities']
+      JSON.parse(pokemon.body, symbolize_names: true)[:abilities]
     end
   end
 end

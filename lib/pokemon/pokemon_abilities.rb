@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module Pokemon
   class PokemonAbilities
     ENDPOINT = PokemonService.instance

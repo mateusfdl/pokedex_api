@@ -15,7 +15,7 @@ class PokemonController < ApplicationController
 
   def abilities
     @pokemon_abilities.map do |ability|
-      ability['ability']['name']
+      ability[:ability][:name]
     end
   end
 end
